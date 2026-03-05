@@ -1,5 +1,11 @@
 # Minishell - @42Born2Code
 
+## ✏️ A personal word
+
+Minishell is the first group project from 42 Common Core. It dives deep into how a shell works. This is the first time since 42's piscine I felt really challenged. It was a very good first experience working with Rohan as well.
+
+---
+
 ## 💡 About
 
 **Minishell** is a 42 school project that challenges us to create our own shell. It is a miniature version of **Bash**, providing a command-line interface to interact with the operating system.
