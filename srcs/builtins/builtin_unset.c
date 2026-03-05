@@ -6,7 +6,7 @@
 /*   By: gmechaly <gmechaly@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 19:13:16 by rdalal            #+#    #+#             */
-/*   Updated: 2025/04/08 16:29:30 by gmechaly         ###   ########.fr       */
+/*   Updated: 2026/03/05 19:27:17 by gmechaly         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ int	valid_id(char *var)
 
 static void	remove_clean_env(t_envp **env, t_envp *node)
 {
+	(void) env;
 	if (node->next && node->prev)
 	{
 		node->next->prev = node->prev;

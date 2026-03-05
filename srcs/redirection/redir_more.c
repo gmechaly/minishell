@@ -6,7 +6,7 @@
 /*   By: gmechaly <gmechaly@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/08 16:30:38 by gmechaly          #+#    #+#             */
-/*   Updated: 2025/04/09 20:37:00 by gmechaly         ###   ########.fr       */
+/*   Updated: 2026/03/05 19:28:08 by gmechaly         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,7 @@ static int	init_heredoc(t_exec *exec)
 int	handle_heredoc(t_redir *redir, t_exec *exec, t_envp *env)
 {
 	int		fd;
-	int		i;
 
-	i = 0;
 	fd = init_heredoc(exec);
 	if (fd < 0)
 		return (0);
